@@ -6,54 +6,6 @@
 
 An experimental framework bridging Large Language Models (LLMs) with Quantum Machine Learning (QML) circuits. This project implements hybrid quantum-classical variants using **PennyLane** and **Qiskit**, accompanied by a classical computing baseline variant for performance benchmarking. 
 
----
-
-## 🖼️ Quantum Circuit Architecture
-
-Below is the variational quantum circuit design integrated into the LLM attention/feed-forward pathway:
-
-
-```
-
-[ Classical Token Embeddings ]
-│
-▼
-[ Variational Encoder ]
-│
-▼
-┌─────────────────────────┐
-│  Parameterized Q-Node   │  <-- [PennyLane / Qiskit Backend]
-│  (Rot, CNOT, RX, RY)    │
-└─────────────────────────┘
-│
-▼
-[ Measurement / Expectation ]
-│
-▼
-[ Classical LLM Head ] ➔ [ Output Generation ]
-
-```
-
-> *Placeholder for your custom schematic:* Drop your quantum circuit image file into `assets/quantum_circuit.png` to render it live here.
-
----
-
-## 📂 Repository Structure
-
-```text
-Quantum-llm-Qhack/
-├── assets/
-│   └── quantum_circuit.png     # Visual diagram of the quantum circuit layers
-├── models/
-│   ├── classical_variant.py    # Standard classical computing baseline
-│   └── quantum_variant.py      # PennyLane/Qiskit hybrid QML model
-├── scripts/
-│   ├── evaluate.py             # Benchmarking script (Quantum vs. Classical)
-│   └── train.py                # Training loops & optimization routines
-├── requirements.txt            # Python dependencies
-└── README.md
-
-```
 
 ---
 
