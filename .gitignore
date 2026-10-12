@@ -1,1 +1,8 @@
 __pycache__/
+state_*.pt
+metrics_*.jsonl
+*.tmp*
+normal/checkpoint_attn.npz
+normal/checkpoint_fourier.npz
+pennylane/checkpoint.npz
+quiskit/checkpoint.npz
