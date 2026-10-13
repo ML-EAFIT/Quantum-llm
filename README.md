@@ -1,4 +1,4 @@
-# Quantum-LLM-Qhack ⚛️🤖
+# Quantum-LLM  ⚛️🤖
 
 [![PennyLane](https://img.shields.io/badge/PennyLane-FF7A59?style=flat&logo=pennylane&logoColor=white)](https://pennylane.ai/)
 [![Qiskit](https://img.shields.io/badge/Qiskit-%236929C4.svg?style=flat&logo=Qiskit&logoColor=white)](https://qiskit.org/)
